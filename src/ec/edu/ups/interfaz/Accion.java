@@ -11,5 +11,10 @@ package ec.edu.ups.interfaz;
  */
 public interface Accion {
     
+    public abstract void comer();
+    public abstract void dormir();
+    public abstract void moverse();
+    public abstract void jugar();
+    public abstract void reproducirse();
     
 }
